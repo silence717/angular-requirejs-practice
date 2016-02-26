@@ -1,0 +1,19 @@
+<div class="resource" ng-controller="resourceCtrl">
+    <!-- tab切换部分 s-->
+    <div class="top">
+        <ul class="tabs">
+            <li><a class="tab" ui-sref="resource.all" ui-sref-active="selected">全部</a></li>
+            <li><a class="tab" ui-sref="resource.personal" ui-sref-active="selected">个人部分</a></li>
+            <li><a class="tab" ui-sref="resource.bayonet" ui-sref-active="selected">卡口信息</a></li>
+            <li><a class="tab" ui-sref="resource.alarm" ui-sref-active="selected">报警信息</a></li>
+            <li><a class="tab" ui-sref="resource.structure" ui-sref-active="selected">实时结构化信息</a></li>
+            <li><a class="tab" ui-sref="resource.record" ui-sref-active="selected">执法记录仪信息</a></li>
+        </ul>
+    </div>
+    <!--tab切换部分 end-->
+    <!-- 页面主题部分 s-->
+    <div ui-view="content">
+
+    </div>
+    <!-- 页面主题部分 e-->
+</div>

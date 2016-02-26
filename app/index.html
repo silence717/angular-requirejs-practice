@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1">
+    <title>视频图像信息库</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <a class="logo">
+                <span>视频图像信息库</span>
+            </a>
+            <div class="navs">
+                <ul>
+                    <li><a class="nav active" ui-sref="home">首页</a></li>
+                    <li><a class="nav" ui-sref="resource.all">资源</a></li>
+                    <li><a class="nav" ui-sref="analysis" >图表分析</a></li>
+                    <li><a class="nav" ui-sref="demo">示例</a></li>
+                </ul>
+            </div>
+            <div class="user">
+                <span><icon class="count-logo"></icon>数据总量：5,603</span>
+                <span><icon class="user-logo"></icon> adminstrator，已登录 | <a href="###">登出</a></span>
+            </div>
+        </div>
+        <div class="main" ui-view=""></div>
+    </div>
+    <script type="text/javascript" src="libs/require/require.js"  data-main="js/main.js"></script>
+</body>
+</html>

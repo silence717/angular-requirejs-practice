@@ -1,0 +1,65 @@
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+}
+.pagination > li {
+    display: inline-block;
+    margin-right: 5px;
+    height: 25px;
+    line-height: 25px;
+}
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    color: #757575;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    z-index: 3;
+    color: #ff9833;
+    background-color: #f9f9f9;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #ff9833;
+    cursor: default;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    cursor: not-allowed;
+}
+.pagination .pagination-prev {
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+}
+.pagination .pagination-prev a {
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    padding: 0;
+    margin-top: 7px;
+    margin-left: 10px;
+    background: url("../../../images/icon_page.png") 0 0 no-repeat;
+}

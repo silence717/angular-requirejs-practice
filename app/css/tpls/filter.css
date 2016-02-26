@@ -1,0 +1,123 @@
+/**
+ * @description [筛选公共css]
+ * @author yangfang@netposa.com
+ * @date 2015/11/10
+ */
+.filter-box{
+	border: 1px solid #e0e4e3;
+    background-color: #fff;
+
+}
+.filter-box .filter,
+.filter-box .selector-main{
+    height: 38px;
+	line-height: 38px;
+    padding: 0 25px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.filter-box .selector-main {
+    padding-left: 51px;
+    padding-right: 15px;
+}
+.filter-box .selector-main .selector-nav-item{
+    float: left;
+    margin-right: 10px;
+}
+.filter-box .selector-main a{
+    color: #666;
+}
+
+.filter-box .selector-nav-item a{
+    padding: 5px;
+    border: 1px dotted #ff4400;
+}
+.filter-box .selector-nav-item b{
+   font-weight: normal;
+}
+
+.filter-box .selector-nav-item em {
+    font-style: normal;
+    color: #ff4400;
+}
+.filter-box .selector-cancel {
+    float: right;
+}
+
+.filter-box .active{
+	background: #ff8d33;
+    border-radius: 3px;
+    padding: 4px;
+}
+.filter-box li {
+    display: inline-block;
+}
+
+.filter-box li a{
+    padding: 10px;
+}
+.filter-box .type{
+    float: left;
+    text-align: center;
+    width: 102px;
+    margin-right: 15px;
+    font-weight: bold;
+	background: url("../../images/selectbg.png") no-repeat center;
+}
+.filter-box .filter-info-type {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #d3d3d3;
+    border-top: none;
+    padding-left: 20px;
+    margin: 0 -15px;
+}
+.filter-box .filter-info-type .type{
+    font-weight: normal;
+    background: none;
+    margin-right: 9px;
+}
+.filter-box .select{
+	width: 100px;
+    box-sizing: border-box;
+    height: 25px;
+    padding: 0 4px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.filter-box input{
+	height: 25px;
+	background: white;
+}
+.filter-box .time{
+	width: 145px;
+	height: 25px;
+    line-height: 25px;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+    padding: 0 10px;
+}
+.filter-box .input-time{
+   display: inline-block;;
+   background: url("") no-repeat scroll 98% center #f9f9f9;
+}
+.filter-box .filter-btn{
+	width: 40px;
+	height: 25px;
+	background: #f9f9f9;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+}
+/**排序栏样式*/
+.order-cases {
+	background: #f5f5f7;
+	border: 1px solid #dee5e9;
+	height: 42px;
+	line-height: 30px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding: 0 5px 0 20px;
+}

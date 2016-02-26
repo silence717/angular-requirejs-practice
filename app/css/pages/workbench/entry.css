@@ -1,0 +1,127 @@
+/**弹出框*/
+.ngdialog-overlay .ngdialog-content{
+	width: 990px;
+}
+.dialog{
+	margin-right: 340px;
+	margin: auto;
+}
+.dialog dl{
+	height: 80px;
+	overflow-y: scroll;
+}
+dl dd{
+	margin: 0px auto;
+	padding: 0px;
+}
+.dialog dl dd{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid #E0E4E8;
+}
+dd h6{
+    width: 33%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+dd h6 a{
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    display: inline-block;
+}
+.video{
+    width: 20px;
+    height: 20px;
+    background: url('../../../images/restype.png') 0px -20px no-repeat; 
+    display: inline-block;
+    top: 8px;
+    position: relative;
+    margin-right: 8px;
+}
+.image{
+    width: 20px;
+    height: 20px;
+    background: url('../../../images/restype.png') 0px 0px no-repeat; 
+}
+.dialog .addres{
+	display: inline-block;
+	width: 625px;
+	height: 460px;
+	border: 1px dashed #D9D9D9;
+	text-align: center;
+	margin-top: 15px;
+}
+.addres button{
+	width: 120px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: #15A0F5;
+}
+.addres img{
+
+}
+.dialog .form{
+   float: right;
+}
+.form .title{
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 1px solid #E4E4E4;
+}
+.form h3{
+	border-bottom: 2px solid #1566C3;
+	float: left;
+	font-size: 14px;
+	font-weight: normal;
+	height: 41px;
+	padding: 0px 24px;
+}
+.form input{
+	display: block;
+	width: 220px;
+	height: 30px;
+	border: 1px solid #D9D9D9;
+    border-radius: 3px; 
+}
+.form .upload{
+	width: 100px;
+	height: 30px;
+	border-radius: 3px;
+	background-color: #8FC31F;
+	text-align: center;
+}
+.form li{
+	font-size: 12px;
+	margin-bottom: 9px;
+	margin-top: 9px;
+}
+.form li span{
+    float: left;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 10px;
+    color: #666666;
+}
+.form .time{
+
+}
+.form .address input{
+     margin-bottom: 9px;
+     margin-left: 70px;
+}
+.form textarea{
+	border: 1px solid #D9D9D9; 
+	width: 220px;
+	height: 65px;
+	margin-left: 23px;
+	border-radius: 3px;
+}
+.form .btn{
+	margin-top: 15px;
+	text-align: center;
+}

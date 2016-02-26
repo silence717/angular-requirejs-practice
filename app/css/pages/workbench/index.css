@@ -1,0 +1,57 @@
+/**
+ * @description [我的工作台公共css]
+ * @author zhangxinyu@netposa.com
+ * @date 2015/11/10
+ */
+@import url('../../../css/tpls/filter.css');
+@import url('entry.css');
+.workbench .wrapper{
+	margin: 30px auto 0;
+	width: 1200px;
+	_width: 1200px;
+}
+.filter-box .tabs{
+	height: 40px;
+	padding: 0px;
+}
+.filter-box .header{
+	line-height: 38px;
+	background: #F9F9F9;
+	border-bottom: 1px solid #e0e4e3; 
+}
+.tabs li{
+	float: left;
+}
+.tabs .tabsactive{
+	font-size: 14px;
+	font-weight: bold;
+	color: #00A1F2;
+	width: 110px;
+}
+.tabs li{
+	font-size: 14px;
+	color: #797979;
+}
+.add-Btn{
+	float: right;
+	width: 92px;
+	height: 26px;
+    background: #8FC31F;
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+.tabs .tab1{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../../../images/workbench.png') 0px -20px no-repeat;
+}
+.tabs .tab2{
+   display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../../../images/workbench.png') -20px 0px no-repeat;
+}
+
+

@@ -1,0 +1,80 @@
+/**
+ * @description [公共css]
+ * @author yangfang@netposa.com
+ * @date 2015/11/6
+ */
+@import "reset.css";
+@import "tpls/thumbList.css";
+@import "tpls/detailList.css";
+@import "tpls/filter.css";
+@import "componets/pagination/pagination.css";
+@import "componets/dialog/ngDialog.css";
+@import "componets/dialog/ngDialog-theme-default.css";
+/*@import "componets/dialog/ngDialog-theme-plain.css";*/
+/* 头部 start */
+.header {
+    height: 50px;
+    line-height: 50px;
+    background: #00a1f2;
+    padding: 0 15px;
+    color: #fff;
+}
+.header div,.header .logo {
+    display: inline-block;
+    float: left;
+}
+.header .logo{
+    font-size: 24px;
+    padding-left: 60px;
+    background: url("../images/logo.png") 0 center no-repeat;
+}
+.header .user {
+    float: right;
+}
+.header .user a{
+    color: #fff;
+}
+.header .navs {
+    margin-left: 50px;
+}
+.header li{
+    width: 100px;
+    float: left;
+    position: relative;
+}
+.header .nav {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+}
+.header .nav.active {
+   font-weight: bold;
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-left: 5px solid transparent;*/
+    /*border-right: 5px solid transparent;*/
+    /*border-bottom: 10px solid #fff;*/
+}
+.header .user span{
+    margin-right: 15px;
+}
+.header icon{
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    margin-right: 5px;
+    background: url("../images/icon_logo.png") no-repeat;
+}
+.header .count-logo {
+    background-position: 0 0;
+}
+
+.header .user-logo {
+    background-position: 0 -14px;
+}
+/* 头部 end */
+/* 主体 start */
+.main {
+    background-color: #f4f4f4 ;
+}

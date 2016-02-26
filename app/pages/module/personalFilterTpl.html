@@ -1,0 +1,55 @@
+<!-- 个人上传、我的录入公共筛选条件-->
+<div class="filter-box">
+    <div class="selector-main fn-clear">
+        <div class="selector-nav-item">已选条件：</div>
+        <div class="selector-nav-item">
+            <a href="###">
+                <b>资源类别：</b>
+                <em>结构化信心-人员</em>
+                <i></i>
+            </a>
+        </div>
+        <a class="selector-cancel " href="###">全部撤销</a>
+    </div>
+    <div class="filter">
+        <span class="type">资源类别</span>
+        <ul>
+            <li><a class="active" ng-click="">全部</a></li>
+            <li><a>视频</a></li>
+            <li><a>图片</a></li>
+            <li><a ng-click="showInfoType();">结构化信息</a></li>
+        </ul>
+    </div>
+    <div class="filter" ng-show="isShowInfoType">
+        <div class="filter-info-type">
+            <span class="type">信息类型：</span>
+            <ul>
+                <li><a>全部</a></li>
+                <li><a>人员</a></li>
+                <li><a>车辆</a></li>
+                <li><a>物品</a></li>
+                <li><a>场景</a></li>
+                <li><a>运动目标</a></li>
+                <li><a>其他</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="filter">
+        <span class="type">拍摄地点</span>
+        <div>
+            <select class="select" id="incident_province" name="province"></select>
+            <select class="select" id="incident_city" name="city"></select>
+            <select class="select" id="incident_country" name="country"></select>
+            <button class="filter-btn">筛选</button>
+        </div>
+
+    </div>
+    <div class="filter">
+        <span class="type">拍摄时间</span>
+        <div>
+            <input type="text" class="time input-time" placeholder="--请选择开始时间--" />&nbsp;&nbsp;一&nbsp;&nbsp;
+            <input type="text" class="time input-time" placeholder="--请选择结束时间--">
+            <button class="filter-btn">筛选</button>
+        </div>
+    </div>
+</div>
